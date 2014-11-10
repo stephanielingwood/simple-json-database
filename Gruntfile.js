@@ -5,12 +5,12 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     jshint: {
-      all: ["lib/*.js"]
+      all: ["lib/server.js"]
     },
 
     jscs: {
       all: {
-        src: "lib/*.js",
+        src: "lib/server.js",
         options: {
             config: ".jscsrc",
             requireCurlyBraces: [ "if" ]
